@@ -1,0 +1,10 @@
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\bin\Debug\Recipe-App.exe.config
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\bin\Debug\Recipe-App.exe
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\bin\Debug\Recipe-App.pdb
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe-App.csproj.AssemblyReference.cache
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe_App.Form1.resources
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe_App.Properties.Resources.resources
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe-App.csproj.GenerateResource.cache
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe-App.csproj.CoreCompileInputs.cache
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe-App.exe
+C:\Users\Judy\source\repos\Recipe-App\Recipe-App\obj\Debug\Recipe-App.pdb
