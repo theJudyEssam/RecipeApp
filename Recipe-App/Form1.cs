@@ -38,6 +38,8 @@ namespace Recipe_App
             string recipe = textBox2.Text;
             string title = textBox1.Text;
 
+
+            try {
             table.Rows.Add(title);
             hashtable.Add(title, recipe);
 
@@ -46,7 +48,11 @@ namespace Recipe_App
 
             dataGridView1.DataSource = table;
             dataGridView1.Columns["Recipe Name"].Width = 265;
-
+ }
+            catch
+            {
+                textBox2.Text = "This Item has already been added.";
+            }
 
         }
 
@@ -58,9 +64,11 @@ namespace Recipe_App
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            try {
             // gets the current 
             int index = dataGridView1.CurrentCell.RowIndex;
+
+            
             if (index > -1)
             {
                 string title = table.Rows[index].ItemArray[0].ToString();
@@ -68,6 +76,17 @@ namespace Recipe_App
                 textBox2.Text = hashtable[title].ToString();
 
 
+            }
+                else
+                {
+                    textBox2.Text = "You cannot read an empty file";
+                }
+            
+            }
+            catch(Exception error)
+            {
+                textBox2.Text = "You cannot read an empty file";
+               
             }
         }
 
