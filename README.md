@@ -19,7 +19,7 @@ Welcome to the Recipe App! This Windows Form application allows you to manage yo
 To get started with the Recipe App, follow these steps:
 
 1. Clone or download this repository to your local machine.
-2. Open the solution file (`RecipeApp.sln`) in Visual Studio.
+2. Open the solution file (`Recipe-App.sln`) in Visual Studio.
 3. Build the solution to restore dependencies and compile the project.
 4. Run the application by pressing `F5` or clicking on the "Start" button in Visual Studio.
 
